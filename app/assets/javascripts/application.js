@@ -13,4 +13,6 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require backstretch
 //= require_tree .
+//= stub pags1

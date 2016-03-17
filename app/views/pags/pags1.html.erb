@@ -1,2 +1,10 @@
-<h1>Pags#pags1</h1>
-<p>Find me in app/views/pags/pags1.html.erb</p>
+
+<ul>
+		<% @users.each do |thing| %>
+		<li>
+		<%= thing %>	
+		</li>
+		<% end %>
+</ul>
+
+<%= javascript_include_tag 'backstretch', 'data-turbolinks-track' => true %>

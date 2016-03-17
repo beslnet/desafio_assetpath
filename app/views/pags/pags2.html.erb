@@ -1,2 +1,17 @@
-<h1>Pags#pags2</h1>
-<p>Find me in app/views/pags/pags2.html.erb</p>
+<div class="jumbotron">
+  <h1>Hola, Mundo!</h1>
+  <p>...</p>
+  <!-- <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p> -->
+</div>
+
+<%= image_tag "pizza1", size: '250x150', style: 'margin-right:80px' %>
+<%= image_tag "pizza2", size: '250x150'%>
+<ul style="padding-top:40px">
+		<% @users.each do |thing| %>
+		<li>
+		<%= thing %>	
+		</li>
+		<% end %>
+</ul>
+
+<button id="outside" class="demo-change btn btn-info" style="display: inline-block;">Click para cambiar fondo</button>
